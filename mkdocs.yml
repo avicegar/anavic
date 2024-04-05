@@ -1,0 +1,28 @@
+site_name: Pagina Web Profe Informatica
+docs_dir: 'docs'
+site_dir: 'site'
+dev_addr: localhost:4000
+nav:
+    - Home: index.md
+    - About: about.md
+    - Sistemas Operaticos: SO.md
+    - Ejercicios Dossier: ejerciciosdossier.md
+theme: 
+    name: material
+    features:
+     - content.code.copy
+     - content.code.select
+     - content.code.annotate
+     - navigation.footer
+     - navigation.top
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      auto_title: true
+plugins:
+ - search
